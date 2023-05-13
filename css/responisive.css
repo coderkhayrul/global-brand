@@ -1,0 +1,241 @@
+/* XL (laptop) Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .menu_part_pc .menu .nav-item .nav-link {
+        font-size: 13px;
+        padding: 10px 6px;
+    }
+
+    .tab_part .tab_content ul li a {
+        padding: 15px 36.5px;
+    }
+     body{
+        overflow-x: hidden;
+    }
+}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar-toggler {
+        color: rgba(249, 249, 249, 0.9);
+        background-color: transparent;
+        border: var(--bs-border-width) solid rgba(249, 249, 249, 0.9);
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.97)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .menu_part_pc {
+        padding: 10px 0px;
+    }
+
+    .tab_part .tab_content ul li a {
+        display: block;
+        padding: 15px 45.5px;
+        margin: 10px;
+        background: #ffffff;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+    }
+}
+
+
+/* -- middium Device -- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_part .owl-dots {
+        display: none;
+    }
+
+    .navbar-toggler {
+        color: rgba(249, 249, 249, 0.9);
+        background-color: transparent;
+        border: var(--bs-border-width) solid rgba(249, 249, 249, 0.9);
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.97)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .menu_part_pc {
+        padding: 10px 0px;
+    }
+
+    .tab_part .tab_content ul li a {
+        padding: 15px 36.5px;
+    }
+
+    .add_menu_part .add_menu_body .add_menu_body_item .add_menu_body_item_img {
+        margin-top: 10px;
+    }
+}
+
+
+/* -- Phone Landscape -- */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header_part .header_cart ul li a {
+        float: right;
+    }
+
+    .header_part .header_cart ul li .header_cart_pd {
+        left: -50px;
+        top: 55px;
+    }
+
+    .header_part .header_cart ul li .header_cart_pd::before {
+        top: -19px;
+    }
+
+    .banner_part .owl-dots {
+        display: none;
+    }
+
+    .navbar-toggler {
+        color: rgba(249, 249, 249, 0.9);
+        background-color: transparent;
+        border: var(--bs-border-width) solid rgba(249, 249, 249, 0.9);
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.97)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .menu_part_pc {
+        padding: 10px 0px;
+    }
+
+    .add_menu_part .add_menu_body .add_menu_body_item .add_menu_body_item_img {
+        margin-top: 10px;
+    }
+
+    .tab_part .tab_content ul li a {
+        padding: 15px 31.5px;
+    }
+}
+
+
+/* mobile size 480 small Device. */
+
+@media (min-width: 400px) and (max-width: 480px) {
+    .header_part .header_cart ul li a {
+        float: right;
+    }
+
+    .header_part .header_cart ul li .header_cart_pd {
+        left: -50px;
+        top: 55px;
+    }
+
+    .header_part .header_cart ul li .header_cart_pd::before {
+        top: -19px;
+    }
+
+    .banner_part .owl-dots {
+        display: none;
+    }
+
+    .navbar-toggler {
+        color: rgba(249, 249, 249, 0.9);
+        background-color: transparent;
+        border: var(--bs-border-width) solid rgba(249, 249, 249, 0.9);
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.97)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .menu_part_pc {
+        padding: 10px 0px;
+    }
+
+    .add_menu_part .add_menu_body .add_menu_body_item .add_menu_body_item_img {
+        margin-top: 10px;
+    }
+}
+
+
+/* Extra small Device. */
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .header_part .header_cart ul li a {
+        float: right;
+    }
+
+    .header_part .header_cart ul li .header_cart_pd {
+        left: -50px;
+        top: 55px;
+    }
+
+    .header_part .header_cart ul li .header_cart_pd::before {
+        top: -19px;
+    }
+
+    .banner_part .owl-dots {
+        display: none;
+    }
+
+    .navbar-toggler {
+        color: rgba(249, 249, 249, 0.9);
+        background-color: transparent;
+        border: var(--bs-border-width) solid rgba(249, 249, 249, 0.9);
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.97)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .menu_part_pc {
+        padding: 10px 0px;
+    }
+
+    .add_menu_part .add_menu_body .add_menu_body_item .add_menu_body_item_img {
+        margin-top: 10px;
+    }
+
+    .faq_part .faq_content .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 18px;
+    }
+
+}
